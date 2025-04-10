@@ -1,0 +1,24 @@
+{
+	"name": "base-ev1-lenguaje-de-programacion-web",
+	"version": "0.1.0",
+	"description": "Base para el trabajo de la Ev1 Lenguaje de Programación WEB",
+	"license": "MIT",
+	"author": "Gustavo Alfredo Marín Sáez",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "node --watch index.js",
+		"dev:unocss": "unocss --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"uuid": "^9.0.0"
+	},
+	"packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af",
+	"devDependencies": {
+		"@unocss/cli": "66.1.0-beta.10",
+		"unocss": "66.1.0-beta.10"
+	}
+}
